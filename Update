@@ -1,0 +1,13 @@
+  // Function to extract domain from URL
+    function extractDomain(url) {
+        return url.split('/')[2];
+    }
+
+    // Mapping of website domains to custom reasons and notes
+    const customInfo = {
+        'bloxflip.com': {
+            reason: 'Beta Testing',
+            note: 'This website was found on our list and could potentially harm your computer.'
+        },
+        // Add more domains and custom info here
+    };
